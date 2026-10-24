@@ -1,0 +1,14 @@
+{
+    "require": {
+        "php": "^8.4",
+        "symfony/dependency-injection": "^8.1"
+    },
+    "autoload": {
+        "classmap": ["stubs"]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "rector/rector": "dev-main"
+    }
+}
